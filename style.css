@@ -1,0 +1,224 @@
+body {
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* banner */
+.banner {
+  background-attachment: fixed;
+  background-image: url('cartoon.gif');
+  height: 200px;
+  background-size: 55%;
+  background-repeat: repeat-x;
+  background-position: center;
+  background-color: white;
+}
+
+/* navigation bar */
+nav {
+  display: flex;
+  background-color: #303030;
+  padding-left: 50px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Times New Roman';
+  text-transform: capitalize;
+  font-size: 25px;
+  padding: 25px 20px 25px 20px;
+
+}
+
+nav a:hover {
+  background-color: floralwhite;
+  color: black;
+}
+
+/* all section */
+section h3 {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+section iframe {
+  border: 1px solid grey;
+  height: 200px;
+  width: 30%;
+  margin: 15px;
+}
+
+.reviewsiframes {
+  display: flex;
+  justify-content: space-around;
+}
+
+iframe:hover {
+  box-shadow: 7px 7px 10px rgb(128, 128, 128, 0.5);
+}
+
+.study-material img {
+  border: 1px solid grey;
+  margin: 10px;
+  height: 200px;
+  width: 22%;
+}
+
+footer h5 {
+  margin-top: 80px;
+  font-size: 20px;
+}
+
+.aman-name {
+  font-family: cursive;
+  font-size: 35px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 10px 0px 20px 0px;
+}
+
+#aman-img {
+  margin: 0px 0px 10px 0px;
+  border-radius: 100%;
+}
+
+.aman-handles a {
+  background-color: rgb(64, 64, 64, 25%);
+  padding: 10px 15px;
+  border-radius: 30px;
+  margin: 10px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: "times new roman";
+  font-size: 23px;
+}
+
+.aman-handles a:hover {
+  background-color: rgba(64, 64, 64, 75%);
+}
+
+.aman-handles a i {
+  margin: 3px;
+}
+
+.aman-handles .yt-handle {
+  color: #FF0000;
+}
+
+.aman-handles .link-handle {
+  color: #0A66C2;
+}
+
+.aman-handles .insta-handle {
+  color: #E1306C;
+}
+
+.right-align {
+  margin-left: auto;
+}
+
+section h3,
+footer h5 {
+  margin-top: 75px;
+  margin-bottom: 40px;
+  font-weight: 100 !important;
+  font-family: "georgia";
+}
+
+.aman-intro {
+  margin: 30px 10px 15px 10px;
+  font-size: 30px;
+  font-weight: 700;
+  color: royalblue;
+  word-spacing: 2px;
+ font-family: "times new roman" ;
+}
+
+.aman-content {
+  margin: 20px 75px 20px 75px;
+  font-size: 20px;
+  font-weight: 500;
+  color: dimgrey;
+  text-align: left;
+  text-indent: 30px;
+  line-height: 25px;
+  word-spacing: 1px;
+   font-family: "times new roman";
+}
+
+
+section:nth-child(odd) {
+  background-color: ghostwhite;
+}
+
+section h3 span,
+footer h5 span {
+  /* Created with https://www.css-gradient.com */
+  background: #D934E9;
+  background: -webkit-linear-gradient(top left, #D934E9, #D89DEB);
+  background: -moz-linear-gradient(top left, #D934E9, #D89DEB);
+  background: linear-gradient(to bottom right, #D934E9, #D89DEB);
+  border-radius: 100px;
+  padding: 15px 15px 15px 15px;
+  color: white;
+}
+
+/* external css: flickity.css */
+/* plugin 1 */
+.carousel-cell iframe {
+  height: 500px;
+  width: 66%;
+}
+
+.carousel-cell {
+  width: 100%;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+}
+
+/* plug in 2 */
+/* external css: flickity.css */
+.carousel-cell-2 iframe {
+  height: 500px;
+  width: 66%;
+}
+
+.carousel-cell-2 {
+  width: 100%;
+}
+
+/* cell number */
+.carousel-cell-2:before {
+  display: block;
+}
+
+@media screen and (max-width:700px) {
+  .right-align {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    text-align: center;
+    padding-right: 50px;
+  }
+}
+
+
+ /* Tesla logo and gif */

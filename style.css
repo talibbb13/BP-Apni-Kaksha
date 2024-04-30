@@ -12,14 +12,8 @@ body {
 }
 
 /* banner */
-.banner {
-  background-attachment: fixed;
-  background-image: url('cartoon.gif');
-  height: 200px;
-  background-size: 55%;
-  background-repeat: repeat-x;
-  background-position: center;
-  background-color: white;
+.banner img {
+  width: 100vw;
 }
 
 /* navigation bar */
